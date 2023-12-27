@@ -1,0 +1,24 @@
+.topBar {
+    display: flex;
+    justify-content: center;
+}
+
+.linkedinLink img {
+    height: 50px;
+    width: 50px;
+}
+
+.githubLink img {
+    height: 50px;
+    width: 50px;
+}
+
+.personalPicture {
+    display: flex;
+    justify-content: center;
+}
+
+.personalPicture img {
+    height: 315px;
+    width: 250px;
+}

@@ -9,6 +9,13 @@ import { Link, Element, scroller } from "react-scroll";
 // https://medium.com/@davidarmah2022/silky-smooth-scrolling-in-reactjs-a-step-by-step-guide-for-react-developers-7dcce944cc89
 // https://codepen.io/Mertl/pen/GexapP
 
+
+//typewriter for later 
+// https://www.codesdope.com/blog/article/12-creative-css-and-javascript-text-typing-animati/
+
+// other fun effects
+// https://alvarotrigo.com/blog/css-text-animations/
+
 const canvas = document.createElement('canvas');
 canvas.id = 'canvas';
 document.body.appendChild(canvas);
@@ -108,6 +115,10 @@ window.addEventListener("resize", function() {
 });
 
 
+
+
+
+
 loop();
 setInterval(loop, 1000 / 60);
 
@@ -134,6 +145,7 @@ class Home extends Component {
                 <div className='personalPicture'>
                     <img src={professionalPhoto} alt='????' />
                 </div>
+                <div className='softwareEngineer' >Software Engineer</div>
                 <div className='sectionLinks'>
                     <div>
                         <Link
@@ -163,6 +175,8 @@ class Home extends Component {
                         </Link>
                     </div>
                 </div>
+                {
+                /*
                 <Element name="section1" className="section">
                     <h2>Experience</h2>
                     <div className='sectionOne'>Stuff here...</div>
@@ -175,6 +189,8 @@ class Home extends Component {
                     <h2>Projects</h2>
                     <p>Stuff here...</p>
                 </Element>
+                */
+                }
         </div>
         );
 

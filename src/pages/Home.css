@@ -30,14 +30,14 @@ canvas{
 .linkedinLink img {
     height: 50px;
     width: 50px;
-    border: 1px solid white;
+    background-color: white;
 }
 
 
 .githubLink img {
     height: 50px;
     width: 50px;
-    border: 1px solid white;
+    background-color: white;
 }
 
 .personalPicture {
@@ -56,7 +56,25 @@ canvas{
 }
 
 .sectionLinks > div {
-    padding: 0 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+
+.softwareEngineer {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+
+.sectionLinks > div:hover {
+    border: 2px solid darkgray;
+    color: darkgray;
 }
 
 .section {

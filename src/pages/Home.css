@@ -8,6 +8,7 @@
     top: 200px;
 }
 
+
 body,html {
   margin: 0px;
   padding: 0px;
@@ -29,13 +30,13 @@ canvas{
 
 
 .topBar div {
-    padding: 0px 5px;
+    padding: 0px 25px;
 }
 
 .mailLink img, .githubLink img, .linkedinLink img {
-    height: 50px;
-    width: 50px;
-    background-color: white;
+    height: 45px;
+    width: 45px;
+    background-color: ivory; /* was white */
     border-radius: 10px;
     border: 2px solid green;
 }
@@ -64,6 +65,8 @@ canvas{
 .sectionLinks {
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 1;
 }
 
 .sectionLinks > div {
@@ -80,6 +83,8 @@ canvas{
     letter-spacing: 5px;
     font-size: 30px;
     padding-bottom: 15px;
+    position: relative;
+    z-index: 1;
 }
 
 

@@ -7,6 +7,8 @@ import MailIcon from './images/mail_icon.png';
 import { Link, Element, scroller } from "react-scroll";
 
 // TODO: get smooth scrolling working when I actually have content here
+// TODO: maybe add a on-load animation
+// TODO: add hover states for all images & find a better font
 // https://medium.com/@davidarmah2022/silky-smooth-scrolling-in-reactjs-a-step-by-step-guide-for-react-developers-7dcce944cc89
 // https://codepen.io/Mertl/pen/GexapP
 

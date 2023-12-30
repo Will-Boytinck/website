@@ -27,17 +27,17 @@ canvas{
     justify-content: center;
 }
 
-.linkedinLink img {
-    height: 50px;
-    width: 50px;
-    background-color: white;
+
+.topBar div {
+    padding: 0px 5px;
 }
 
-
-.githubLink img {
+.mailLink img, .githubLink img, .linkedinLink img {
     height: 50px;
     width: 50px;
     background-color: white;
+    border-radius: 10px;
+    border: 2px solid green;
 }
 
 .personalPicture {
@@ -48,6 +48,17 @@ canvas{
 .personalPicture img {
     height: 315px;
     width: 250px;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+
+.linkedinLink img:hover, .githubLink img:hover, .mailLink img:hover {
+    /* idk figure out a hover */
+    -webkit-transition: -webkit-transform .3s ease-out;
+    -moz-transition: -moz-transform .3s ease-out;
+    -o-transition: -o-transform .3s ease-out;
+    transition: transform .3s ease-out;
 }
 
 .sectionLinks {
@@ -83,6 +94,13 @@ canvas{
     align-items: center;
     flex-direction: column;
 }
+
+.txt-rotate {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
 
 .sectionOne {
 
